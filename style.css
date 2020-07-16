@@ -1,0 +1,37 @@
+.navi ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: unset;
+    background-color: lightslategray;
+}
+.navi li{
+    float: left;
+}
+.navi li a{
+    display: block;
+    color:green;
+    text-align: center;
+    padding: 1pc 2pc;
+    text-decoration:none;
+}
+.navi li a:hover{
+    background-color: black;
+}
+table,
+th,
+td{
+    border: 3px solid darkred;
+    border-collapse: separate;
+}
+button{
+    width: 18%;
+    background-color: black;
+    margin: 25px;
+    height: 45px;
+}
+button a{
+    text-decoration:none;
+    color:white;
+    display: block;
+}
